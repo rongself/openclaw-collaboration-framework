@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "createdAt": "2026-03-09T01:24:13.984Z",
+    "updatedAt": "2026-03-09T01:24:13.984Z",
+    "coordinator": "collaboration-framework"
+  },
+  "tasks": [],
+  "agents": [
+    {
+      "name": "pm-agent",
+      "role": "Project Manager",
+      "status": "idle",
+      "tasks": [],
+      "capabilities": [
+        "requirement_analysis",
+        "task_planning",
+        "priority_setting",
+        "dependency_management",
+        "progress_tracking"
+      ]
+    },
+    {
+      "name": "dev-agent",
+      "role": "Developer",
+      "status": "idle",
+      "tasks": [],
+      "capabilities": [
+        "code_development",
+        "file_operations",
+        "code_review",
+        "documentation"
+      ]
+    },
+    {
+      "name": "qa-agent",
+      "role": "Quality Assurance",
+      "status": "idle",
+      "tasks": [],
+      "capabilities": [
+        "functional_testing",
+        "bug_reporting",
+        "acceptance_criteria",
+        "validation"
+      ]
+    }
+  ]
+}
